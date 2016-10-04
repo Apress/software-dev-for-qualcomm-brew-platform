@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+   <TITLE>boolean State_HandleEvent</TITLE>
+   <META NAME="GENERATOR" CONTENT="DOC++ 3.4.9">
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+In file State.c:<TABLE BORDER=0><TR>
+<TD VALIGN=TOP><H2>boolean <A HREF="#DOC.DOCU">State_HandleEvent</A></H2></TD><TD><H2>( void* p,  AEEEvent eCode,<BR>&nbsp; uint16 wParam,  uint32 dwParam )</H2></TD></TR></TABLE>
+<BLOCKQUOTE> Handles incoming events.</BLOCKQUOTE>
+
+<A NAME="DOC.DOCU"></A>
+<HR>
+<H2>Documentation</H2>
+<BLOCKQUOTE>
+Handles incoming events.
+Dispatches suspend and resume to current state.
+Pops state on AVK_CLR
+Pops all states on EVT_APP_STOP
+</BLOCKQUOTE>
+<DL><DT><DT><B>Parameters:</B><DD><B>void</B> -  *p: pointer to app
+<BR><B>AEEEvent</B> -  eCode: event code
+<BR><B>uint16</B> -  wParam: event parameter
+<BR><B>uint32</B> -  dwParan: event parameter
+<BR><DT><B>Returns:</B><DD>  boolean FALSE if app framework should continue handling event<BR><DD></DL><P><P><I><A HREF="index.html">Alphabetic index</A></I></P><HR>
+<font size="-1">
+Copyright &copy; <a href="http://www.lothlorien.com/">Ray Rischpater, KF6GPE</a>, 2002-2003
+</font>

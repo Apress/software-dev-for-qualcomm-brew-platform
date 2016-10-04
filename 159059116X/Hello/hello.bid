@@ -1,0 +1,10 @@
+//        Copyright © 1999-2001 QUALCOMM Incorporated.
+//               All Rights Reserved.
+//            QUALCOMM Proprietary/GTDR
+
+#ifndef HELLOWORLD_BID
+#define HELLOWORLD_BID
+
+#define AEECLSID_HELLOWORLD    0x01009FF0
+
+#endif // HELLOWORLD_BID

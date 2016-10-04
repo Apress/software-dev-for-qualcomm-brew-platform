@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+   <TITLE> AppStates.h</TITLE>
+   <META NAME="GENERATOR" CONTENT="DOC++ 3.4.9">
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+<TABLE BORDER=0><TR>
+<TD VALIGN=TOP><H2> <A HREF="#DOC.DOCU">AppStates.h</A></H2></TD></H2></TD></TR></TABLE>
+<A NAME="DOC.DOCU"></A>
+<BLOCKQUOTE>
+This file provides the structures and interface for a state
+machine manager based on a single stack to track application
+state transitions.
+
+<P>To the user, a state is a screen.
+Programmatically, a state is an ordered tuple containing
+
+<P>-- a memory region to hold internal scratch data
+
+<P>-- event handler
+
+<P>The currently active state --- that at the top of the stack -- 
+will have its functions called. Other states on the stack do 
+not receive function calls.</BLOCKQUOTE>
+<DL><DT><DT><B>Author:</B><DD>Ray Rischpater, KF6GPE
+Created by Ray Rischpater on 1 October 2002
+Copyright (c) 2002 by the author. All rights reserved.
+This file is provided without any warranty, express or implied,
+including but not limited to fitness of purpose.
+You may use this file so long as the copyright attribution
+remains.
+
+<DD></DL><P><P><I><A HREF="index.html">Alphabetic index</A></I></P><HR>
+<font size="-1">
+Copyright &copy; <a href="http://www.lothlorien.com/">Ray Rischpater, KF6GPE</a>, 2002-2003
+</font>

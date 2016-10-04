@@ -1,0 +1,36 @@
+READ ME FIRST for the Software Development for the QUALCOMM BREW Platform
+                           Sample Code
+
+by Ray Rischpater, KF6GPE
+Distributed by APress, LP.
+
+(c) 2002-2003 by the author. All rights reserved.
+
+These files are provided without any warranty, express or implied,
+including but not limited to fitness of purpose. You may use these 
+files  so long as the copyright attribution within each file remains 
+in its original form.
+
+NOTES
+=====
+
+These examples assume you've installed the QUALCOMM SDK and
+Visual Studio .NET, as well as doc++. (If you don't have doc++,
+building these Microsoft Visual Studio solutions will complain,
+but you can ignore the error in the post-build step.)
+
+You can find a prototypical makefile for the
+ARM BREW Builder in Main/main.mak.
+
+For best results, you should consider installing doc++ from 
+docpp.sourceforge.net. With doc++, building any of these examples
+will also create an HTML directory containing documentation for 
+each of the relevant structures and functions in the application.
+
+I hope you enjoy learning QUALCOMM BREW with the aid of these examples
+as much as I enjoyed writing them for you!
+
+-- Ray Rischpater, KF6GPE
+   31 August 2003
+   Boulder Creek, California
+

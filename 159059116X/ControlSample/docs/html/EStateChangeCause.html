@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+   <TITLE>typedef enum EStateChangeCause</TITLE>
+   <META NAME="GENERATOR" CONTENT="DOC++ 3.4.9">
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+<TABLE BORDER=0><TR>
+<TD VALIGN=TOP><H2>typedef enum <A HREF="#DOC.DOCU">EStateChangeCause</A></H2></TD></H2></TD></TR></TABLE>
+<BLOCKQUOTE>State transitions. </BLOCKQUOTE>
+
+<TABLE>
+<TR><TD VALIGN=TOP>
+<IMG ALT="o" BORDER=0 SRC=icon1.gif><A NAME="StateChange_push"></A>
+<A HREF=StateChange_push.html><B>StateChange_push</B></A></TD><TD><BR>
+<I>A new state is being pushed</I>
+</TD></TR><TR><TD VALIGN=TOP>
+<IMG ALT="o" BORDER=0 SRC=icon1.gif><A NAME="StateChange_pop"></A>
+<A HREF=StateChange_pop.html><B>StateChange_pop</B></A></TD><TD><BR>
+<I>The current state is being popped</I>
+</TD></TR><TR><TD VALIGN=TOP>
+<IMG ALT="o" BORDER=0 SRC=icon1.gif><A NAME="StateChange_suspend"></A>
+<A HREF=StateChange_suspend.html><B>StateChange_suspend</B></A></TD><TD><BR>
+<I>The system has sent an EVT_SUSPEND</I>
+</TD></TR><TR><TD VALIGN=TOP>
+<IMG ALT="o" BORDER=0 SRC=icon1.gif><A NAME="StateChange_resume"></A>
+<A HREF=StateChange_resume.html><B>StateChange_resume</B></A></TD><TD><BR>
+<I>The system has sent an EVT_RESUME</I>
+</TD></TR><TR><TD VALIGN=TOP>
+<IMG ALT="o" BORDER=0 SRC=icon1.gif><A NAME="StateChange_causemask"></A>
+<A HREF=StateChange_causemask.html><B>StateChange_causemask</B></A></TD><TD><BR>
+<I>The state change cause mask</I>
+</TD></TR>
+</TABLE>
+<A NAME="DOC.DOCU"></A>
+<BLOCKQUOTE>
+Each state function is given one of these enums in a bit field in the wParam during a state transition to indicate the reason for the state change.</BLOCKQUOTE>
+<DL><DT><DD></DL><P><P><I><A HREF="index.html">Alphabetic index</A></I></P><HR>
+<font size="-1">
+Copyright &copy; <a href="http://www.lothlorien.com/">Ray Rischpater, KF6GPE</a>, 2002-2003
+</font>
